@@ -1,0 +1,5 @@
+spacy
+geocoder
+pandas
+numpy
+matplotlib
