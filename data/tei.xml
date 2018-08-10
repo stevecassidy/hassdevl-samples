@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd"
+xml:lang="EN"
+xml:id="export">
+
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title type="full">
+        <title type="main">missingcastieaudiaryimages</title>
+        <title type="desc">missingcastieaudiaryimages</title>
+      </title>
+      <author>
+        <persName></persName>
+      </author>
+    </titleStmt>
+
+    <editionStmt>
+      <edition>Edition created from new transcripts of this manuscript.</edition>
+      <respStmt xml:id="AU15">
+        <resp>Initial upload of this work's facsimile images and metadata to FromThePage.com for editing</resp>
+        <persName></persName>
+      </respStmt>
+
+      <respStmt xml:id="OU15">
+        <resp>Adminstrator of the Castieau Diary transcription project on FromThePage.com</resp>
+        <persName></persName>
+      </respStmt>
+
+        <respStmt xml:id="U15">
+          <persName></persName>
+            <resp>
+              made 21 edits between
+              <date type="first_edit" when="2018-05-18T03:27:41Z">May 18, 2018</date> and
+              <date type="last_edit" when="2018-05-18T03:37:23Z">May 18, 2018</date>.
+            </resp>
+        </respStmt>
+    </editionStmt>
+
+    <publicationStmt>
+      <publisher>Dynamic TEI export from FromThePage</publisher>
+      <availability>
+        <p></p>
+      </availability>
+      <date when="2018-05-18T13:41:41+10:00">May 18, 2018</date>
+    </publicationStmt>
+
+    <sourceDesc>
+      <msDesc>
+        <msIdentifier>
+          <collection>Castieau Diary</collection>
+        </msIdentifier>
+        <physDesc>
+          <p></p>
+        </physDesc>
+        <history>
+          <origin>
+            <placeName></placeName>
+          </origin>
+          <provenance></provenance>
+        </history>
+      </msDesc>
+
+      <listPerson>
+      </listPerson>
+
+      <listPlace>
+      </listPlace>
+    </sourceDesc>
+  </fileDesc>
+
+  <profileDesc>
+  </profileDesc>
+
+  <revisionDesc>
+    <listChange ordered="true">
+        <change xml:id="CHG61" who="U15" when="2018-05-18T03:37:23Z" target="#P862">
+          Version 2 of page "Page 17":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG60" who="U15" when="2018-05-18T03:37:08Z" target="#P861">
+          Version 2 of page "Page 16":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG59" who="U15" when="2018-05-18T03:37:02Z" target="#P860">
+          Version 3 of page "Page 15":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG58" who="U15" when="2018-05-18T03:36:50Z" target="#P859">
+          Version 3 of page "Page 14":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG57" who="U15" when="2018-05-18T03:36:36Z" target="#P858">
+          Version 3 of page "Page 13":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG56" who="U15" when="2018-05-18T03:36:17Z" target="#P857">
+          Version 3 of page "Page 12":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG55" who="U15" when="2018-05-18T03:35:24Z" target="#P860">
+          Version 2 of page "Page 15":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG54" who="U15" when="2018-05-18T03:34:59Z" target="#P859">
+          Version 2 of page "Page 14":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG53" who="U15" when="2018-05-18T03:34:46Z" target="#P858">
+          Version 2 of page "Page 13":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG52" who="U15" when="2018-05-18T03:34:28Z" target="#P857">
+          Version 2 of page "Page 12":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG51" who="U15" when="2018-05-18T03:33:44Z" target="#P856">
+          Version 2 of page "Page 11":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG50" who="U15" when="2018-05-18T03:33:07Z" target="#P855">
+          Version 2 of page "Page 10":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG49" who="U15" when="2018-05-18T03:32:55Z" target="#P854">
+          Version 2 of page "Page 9":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG48" who="U15" when="2018-05-18T03:32:37Z" target="#P853">
+          Version 2 of page "Page 8":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG47" who="U15" when="2018-05-18T03:32:15Z" target="#P852">
+          Version 2 of page "Page 7":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG46" who="U15" when="2018-05-18T03:31:55Z" target="#P851">
+          Version 2 of page "Page 6":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG45" who="U15" when="2018-05-18T03:31:26Z" target="#P850">
+          Version 2 of page "Page 5":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG44" who="U15" when="2018-05-18T03:30:38Z" target="#P849">
+          Version 2 of page "Page 4":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG43" who="U15" when="2018-05-18T03:29:29Z" target="#P848">
+          Version 2 of page "Page 3":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG42" who="U15" when="2018-05-18T03:28:55Z" target="#P847">
+          Version 2 of page "Page 2":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG41" who="U15" when="2018-05-18T03:27:41Z" target="#P846">
+          Version 2 of page "Page 1":
+            Changes to page transcript.
+        </change>
+        <change xml:id="CHG40" who="U15" when="2018-05-18T03:09:06Z" target="#P862">
+          Version 1 of page "Page 17":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG39" who="U15" when="2018-05-18T03:09:06Z" target="#P862">
+          Version 0 of page "Page 17":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG38" who="U15" when="2018-05-18T03:09:00Z" target="#P861">
+          Version 1 of page "Page 16":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG37" who="U15" when="2018-05-18T03:09:00Z" target="#P861">
+          Version 0 of page "Page 16":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG36" who="U15" when="2018-05-18T03:08:54Z" target="#P860">
+          Version 1 of page "Page 15":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG35" who="U15" when="2018-05-18T03:08:54Z" target="#P860">
+          Version 0 of page "Page 15":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG34" who="U15" when="2018-05-18T03:08:48Z" target="#P859">
+          Version 1 of page "Page 14":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG33" who="U15" when="2018-05-18T03:08:47Z" target="#P859">
+          Version 0 of page "Page 14":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG32" who="U15" when="2018-05-18T03:08:42Z" target="#P858">
+          Version 1 of page "Page 13":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG31" who="U15" when="2018-05-18T03:08:42Z" target="#P858">
+          Version 0 of page "Page 13":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG30" who="U15" when="2018-05-18T03:08:37Z" target="#P857">
+          Version 1 of page "Page 12":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG29" who="U15" when="2018-05-18T03:08:37Z" target="#P857">
+          Version 0 of page "Page 12":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG28" who="U15" when="2018-05-18T03:08:31Z" target="#P856">
+          Version 1 of page "Page 11":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG27" who="U15" when="2018-05-18T03:08:31Z" target="#P856">
+          Version 0 of page "Page 11":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG26" who="U15" when="2018-05-18T03:08:26Z" target="#P855">
+          Version 1 of page "Page 10":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG25" who="U15" when="2018-05-18T03:08:26Z" target="#P855">
+          Version 0 of page "Page 10":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG24" who="U15" when="2018-05-18T03:08:21Z" target="#P854">
+          Version 1 of page "Page 9":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG23" who="U15" when="2018-05-18T03:08:21Z" target="#P854">
+          Version 0 of page "Page 9":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG22" who="U15" when="2018-05-18T03:08:16Z" target="#P853">
+          Version 1 of page "Page 8":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG21" who="U15" when="2018-05-18T03:08:16Z" target="#P853">
+          Version 0 of page "Page 8":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG20" who="U15" when="2018-05-18T03:08:10Z" target="#P852">
+          Version 1 of page "Page 7":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG19" who="U15" when="2018-05-18T03:08:10Z" target="#P852">
+          Version 0 of page "Page 7":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG18" who="U15" when="2018-05-18T03:06:54Z" target="#P851">
+          Version 1 of page "Page 6":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG17" who="U15" when="2018-05-18T03:06:54Z" target="#P851">
+          Version 0 of page "Page 6":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG16" who="U15" when="2018-05-18T03:06:44Z" target="#P850">
+          Version 1 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG15" who="U15" when="2018-05-18T03:06:44Z" target="#P850">
+          Version 0 of page "Page 5":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG14" who="U15" when="2018-05-18T03:06:36Z" target="#P849">
+          Version 1 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG13" who="U15" when="2018-05-18T03:06:36Z" target="#P849">
+          Version 0 of page "Page 4":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG12" who="U15" when="2018-05-18T03:06:30Z" target="#P848">
+          Version 1 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG11" who="U15" when="2018-05-18T03:06:30Z" target="#P848">
+          Version 0 of page "Page 3":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG10" who="U15" when="2018-05-18T03:06:25Z" target="#P847">
+          Version 1 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG9" who="U15" when="2018-05-18T03:06:24Z" target="#P847">
+          Version 0 of page "Page 2":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG8" who="U15" when="2018-05-18T03:06:19Z" target="#P846">
+          Version 1 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+        <change xml:id="CHG7" who="U15" when="2018-05-18T03:06:19Z" target="#P846">
+          Version 0 of page "Page 1":
+            Empty transcript -- probably initial upload of page facsimile.
+        </change>
+    </listChange>
+  </revisionDesc>
+</teiHeader>
+
+<text>
+  <body>
+      <pb xml:id="F846" n="1" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/846.jpg"/>
+        <div xml:id="OTP846">
+        <fw type="pageNum">Page 1</fw>
+        <p corresp='TTP846P0' xml:id='OTP846P0'>1855<lb/>
+ [Reel 16]<lb/>
+ [January 16 Tuesday 1855]<lb/>
+ Purchased this Diary for which I paid 10/ and considered reasonable, it being but 50<lb/>
+ per Cent over the Home Cost.<lb/>
+ Went to the Main Gaol to hear tidings of the State Prisoners, charged with<lb/>
+ Treason in taking up arms against the Government at Balaarat. The Judge remanded<lb/>
+ them for 10 days, stating that being charged with High Treason, they were entitled to<lb/>
+ that term of clear notice with copies of their indictments from the opening of the<lb/>
+ Sessions. Mr Ireland the Counsel for the Defence, stated he was prepared to proceed<lb/>
+ at once, but the Chief Justice preferred granting the priviledge (sic) allowed by the<lb/>
+ Law.<lb/>
+ This conduct seems evidently to betray an inclination on the part of the<lb/>
+ Governt. to let the matter gradually drop, and in my opinion the men will not be tried<lb/>
+ at all.<lb/>
+ There is a great deal of excitement in the Town, and the Gaol Authorities<lb/>
+ fearing violence have barricaded and strengthened the Entrance, as well as made a<lb/>
+ door as close to the Court as possible by which to take the prisoners too (sic) and<lb/>
+ from Trial. I remarked that people might break doors to get out, but that I hardly<lb/>
+ thought they would break them to get into the prison.<lb/>
+ The Visiting Magistrate inspected the Gaol today. I wrote a letter to my sister<lb/>
+ at Geelong, enclosing one from our Father to her.
+</p>
+
+
+        </div>
+      <pb xml:id="F847" n="2" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/847.jpg"/>
+        <div xml:id="OTP847">
+        <fw type="pageNum">Page 2</fw>
+        <p corresp='TTP847P0' xml:id='OTP847P0'>[January 17 Wednesday 1855]<lb/>
+ Forwarded Letter to the Sheriff suggesting the propriety of getting William Biggen<lb/>
+ into the Benevolent Asylum.<lb/>
+ A very heavy fall of rain attended with thunder and lighting.<lb/>
+ It is no wonder that the Good men of this town should earnestly strive to<lb/>
+ conquer drunkenness when a moment’s reflection makes the mischief caused by it so<lb/>
+ hideously palpable. Scarce a day passes but I have some poor wretch or other brought<lb/>
+ me suffering from the "Horrors" or Delirium Tremens. The fancies of these men are<lb/>
+ sometimes Horrible, one to day (a wealthy Digger too for the Police have deposited<lb/>
+ with me value of more than a £100 Sterling) believes the whole town to be in<lb/>
+ conspiracy to poison him, and in consequence grew so frightened that he gave himself<lb/>
+ up to the Police for Protection.<lb/>
+ I called this evening to see Lotherington, and heard from him that Emma had<lb/>
+ been in town and caught in the rain had too (sic) stop 2 hours in the Arcade. It makes<lb/>
+ me happy to notice how proud and how kind too Joe is to Emma. I met with Mr<lb/>
+ Herle, the Advertising Dentist of this Town, at Black's concert Room, and brought him home to smoke a cigar. He talks of Teeth and pieces of Teeth, new pieces and<lb/>
+ mended pieces, much after the fashion a grocer would discourse of so much tea and<lb/>
+ so many eggs.
+</p>
+
+
+        </div>
+      <pb xml:id="F848" n="3" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/848.jpg"/>
+        <div xml:id="OTP848">
+        <fw type="pageNum">Page 3</fw>
+        <p corresp='TTP848P0' xml:id='OTP848P0'>[Thursday 18 January 1855]<lb/>
+ Availed myself of Mr Dentist Hearle (sic) by calling and having a tooth stopped<lb/>
+ shown all kinds of Ingenious devices for cheating nature, and patching the mouths of<lb/>
+ poor humanity.<lb/>
+ Another sad instance of the fearful effects of intemperance. A poor [old?]<lb/>
+ chum, well educated and at home connected. He is violently mad with a taste for<lb/>
+ theatricals, he now indulges himself with ranting most Prodigious. In a solitary cell<lb/>
+ with a straight waistcoat confining his limbs, he dolefully proclaims “that Britons<lb/>
+ never will be slaves" Alas no Czar ever held dominion over so many abject<lb/>
+ Bondsmen as Bacchus.<lb/>
+ Forwarded a letter to the Colonial Secretary asking for "Authority" to forward<lb/>
+ the above to the Lunatic Asylum.<lb/>
+ Called upon Mr Read the Architect, a clever man in his Profession but<lb/>
+ addicted to the violin which doubtless my want of taste makes me fail to appreciate.<lb/>
+ Took a walk through the Arcade with the purpose of nodding to a rather interesting<lb/>
+ damsel, dare not do more, nod graciously returned.<lb/>
+ Feel very much the want of elevating society, know numbers of young men,<lb/>
+ but can do no more then join in nobblers smoke or bawdry, and these become<lb/>
+ tiresome. Returning home heard disgusting Female shout from doorway after retiring<lb/>
+ swell. Two Half crowns you had better buy something to eat with it you will be<lb/>
+ hungry tomorrow. Invitation from same.
+</p>
+
+
+        </div>
+      <pb xml:id="F849" n="4" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/849.jpg"/>
+        <div xml:id="OTP849">
+        <fw type="pageNum">Page 4</fw>
+        <p corresp='TTP849P0' xml:id='OTP849P0'>[January 19 Friday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP849P1' xml:id='OTP849P1'> My gentle lunatic Sang, howled, blasphemed and ranted the whole of last night, and as there is but a wooden partition betwixt his Quarters and mine, I reflected more than slept, consequently I have felt it a bounden duty to be knocked up to day.  I comfort myself  however that I dont get my salary for nothing.<lb/>
+
+</p>
+
+<p corresp='TTP849P2' xml:id='OTP849P2'> 	Mr Wintle called and inspected the Gaol he did not complain, which from such a man is more than praise from a dozen. Lotherington paid me a visit.<lb/>
+
+</p>
+
+<p corresp='TTP849P3' xml:id='OTP849P3'> 	Akehurst the Clerk of the Bench at Ballaarat was tried yesterday for [assisting?] to murder a digger, after the late outbreak at that place the principal evidence or rather what was brought forward as evidence against him was the Dying Declaration of the man.  But as it commenced "I being very ill but expecting to recover", the Judge ruled it to be inadmissible as a dying declaration.  Query, the magistrate who took his statement, did he word it, and have any idea of the future use of it.<lb/>
+
+</p>
+
+<p corresp='TTP849P4' xml:id='OTP849P4'> 	Got a copy of the Times from Mrs Smith at Bedhampton. She is very good and keeps me in kind remembrance.<lb/>
+
+</p>
+
+<p corresp='TTP849P5' xml:id='OTP849P5'> 	Bought a copy of Punch's Pocket Book gave 3/6 for it. Went to Black's Concert Room.  Met a great many young men there with whom I am acquainted. Chatted with Mrs Poole an actress from Jersey, nice sensible woman &amp; not young enough to be dangerous.<lb/>
+
+</p>
+
+<p corresp='TTP849P6' xml:id='OTP849P6'> 	Met interesting female (Previous) from Arcade, had a little walk, ran against Messrs Pitman &amp; Harrison. Interesting Female and Harrison well acquainted, interesting Female (illegible) ... at being seen by him with [illegible?] ...<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F850" n="5" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/850.jpg"/>
+        <div xml:id="OTP850">
+        <fw type="pageNum">Page 5</fw>
+        <p corresp='TTP850P0' xml:id='OTP850P0'>[January 20 Saturday 1855]<lb/>
+ Called at the Gaol and borrowed a razor for the use of my prison barber.<lb/>
+ Bought Ham &amp; Groceries which cost me £1.8.8, also a couple of eggs for which I<lb/>
+ paid a shilling and which proved uneatable. Called on Lotherington and offered him<lb/>
+ for Emma my Punch's Pocket Book, he is great glee acquainted me I was too late as<lb/>
+ he had purchased one for her yesterday. "Lotherington is a Brick".<lb/>
+ Walked as far as the Western Gaol, but McEwen was from home.<lb/>
+ Met Messrs Harrison &amp; Pitman, separated from Pitman and walked with<lb/>
+ Harrison to the Arcade, promenaded before interesting female she evidently compares<lb/>
+ me disadvantageously to my friend. However strong Heart can bear it. Harrison<lb/>
+ walked home and supped with me he is a nice free spoken fellow very fond of<lb/>
+ women, and with a most discreet and sober countenance as well as A1 Salary will I<lb/>
+ have no doubt find favour with Pa’s &amp; Ma’s as well as Emily or Mary.<lb/>
+ I purchased to night a Pound of brown Windsor Soap, a Bottle of Scent and a<lb/>
+ razor, which left me 20d. to look at instead of 20 shillings.<lb/>
+ Dr Webster called, saw two or three lunatics, looked at them and said !that’ll<lb/>
+ do!<lb/>
+ Engaged a sitting at St Paul's Church. The sexton asked me to shove down on<lb/>
+ a bit of paper who I wanted to sit along side of I did so.
+</p>
+
+
+        </div>
+      <pb xml:id="F851" n="6" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/851.jpg"/>
+        <div xml:id="OTP851">
+        <fw type="pageNum">Page 6</fw>
+        <p corresp='TTP851P0' xml:id='OTP851P0'>[January 21 Sunday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP851P1' xml:id='OTP851P1'> Went to church this morning. Collection in aid of the Sunday Schools.  Put a half Crown in the plate, almost think I grudged it, yet have thrown away at least a Couple of Pounds in trifles during the week.  My only excuse is that there is a Collection for something or other regularly every Sunday.<lb/>
+
+</p>
+
+<p corresp='TTP851P2' xml:id='OTP851P2'> 	Catholic Prayers to the Prisoners by a Youth in training for the Priesthood worthy of notice that the Roman Prisoners pay a great deal more attention to their Pastors than any of the Protestant Denomination whether Presbyterian Wesleyan or Episcopalian.<lb/>
+
+</p>
+
+<p corresp='TTP851P3' xml:id='OTP851P3'> 	Called on Mr Read and prevailed on him to come and take tea with me.  After tea left him to go for a walk while I went to Church.  I have heard of people being ashamed of not attending a Place of Worship, but I too (sic) night feel ashamed of going, and in my mind slunk to my pew, as if to a place of ill repute.  I felt myself a hypocrite for I knew it was not religion brought me, but desire to see and be seen.<lb/>
+
+</p>
+
+<p corresp='TTP851P4' xml:id='OTP851P4'> 	Another Collection. Harrison held the plate &amp; I put in a shilling.  After Church Harrison and I met Interesting female from Arcade. Harrison decidedly the favorite so I left them to their stroll. I am to be I fear fated to solitude. I long for female Society, when out of my reach, and then cut it when in my power to obtain.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F852" n="7" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/852.jpg"/>
+        <div xml:id="OTP852">
+        <fw type="pageNum">Page 7</fw>
+        <p corresp='TTP852P0' xml:id='OTP852P0'>[January 22 Monday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP852P1' xml:id='OTP852P1'> 	Made out and sent in my Week’s Returns. The Visiting Justice inspected the Gaol.<lb/>
+
+</p>
+
+<p corresp='TTP852P2' xml:id='OTP852P2'> 	Received a letter from my sister at Geelong. Not over pleased with the way in which it was written, it betraying to my thought a selfish spirit.<lb/>
+
+</p>
+
+<p corresp='TTP852P3' xml:id='OTP852P3'> 	Called and saw Lotherington, he has bought to day some very pretty birds as a surprise to Emma.<lb/>
+
+</p>
+
+<p corresp='TTP852P4' xml:id='OTP852P4'> 	Attended the Annual Meeting of the Committee of the Benevolent Asylum there were very few persons present although Placards announcing “Alarming Intelligence",  Contemplated closing &amp;c were posted over the Town.  Several very fair speeches delivered which made evident that the Institution was very much in want of funds.  A sign of the Times was unmistakeably given when Mr Latrobe’s name was mentioned His memory was received with unqualified respect and applause and favorably contrasted to our present Governor. The Mayor Mr Smith was Chairman and received a vote of Thanks for his conduct. From what was said of him, he must be very charitable.<lb/>
+
+</p>
+
+<p corresp='TTP852P5' xml:id='OTP852P5'> 	There is a great want of Business management in the carrying out of this Institution. This evening I myself itched to subscribe, and yet as there was no like movement, I feared it would be ostentation to walk up and publicly lay down my (illegible).<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F853" n="8" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/853.jpg"/>
+        <div xml:id="OTP853">
+        <fw type="pageNum">Page 8</fw>
+        <p corresp='TTP853P0' xml:id='OTP853P0'>[January 23 Tuesday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP853P1' xml:id='OTP853P1'> 	Called on the Sheriff with reference to the admission of "Biggin" into the Benevolent Asylum, am to send him on Thursday.<lb/>
+
+</p>
+
+<p corresp='TTP853P2' xml:id='OTP853P2'> 	In the Supreme Court through which I passed they were trying Mr [Suchamp?], the Editor of the Ballaarat Paper for seditious articles that appeared during the time of the Outbreak. The Technicalities of the Indictment in which the words of a flowery article were explained by the Quaint matter of fact of the Law caused much amusement in Court, to wit, “March on my people” by My People meaning the Diggers for Gold &amp;c &amp;c.<lb/>
+
+</p>
+
+<p corresp='TTP853P3' xml:id='OTP853P3'> Foolishly refused to act upon an Order I received from the Main Gaol, thought it a stretch of power of Mr McNee’s believe it now to be [do?] so but as I see the words “By Order” considered it craftily expressed it would be folly to make a row about trifles, so let it pass.<lb/>
+
+</p>
+
+<p corresp='TTP853P4' xml:id='OTP853P4'> Mr Newby and Mr [Matyr?] accompanied me to Sandridge, to view the ruins caused by a large fire there yesterday evening. Nearly an acre of Ground yesterday thickly covered with habitations is now a heap of ruins. Was told a striking illustration of insignificance being security. The Owner of a Portable wooden House seeing the Flames approach with assistance turned his abode over and actually rolled it out of danger.<lb/>
+
+</p>
+
+<p corresp='TTP853P5' xml:id='OTP853P5'> We went to Sandridge by Railway but returned by the Omnibus. Saw on returning that the Locomotive was off the Line. Great joy expressed by Passing lads and Turn Pike Man.<lb/>
+
+</p>
+
+<p corresp='TTP853P6' xml:id='OTP853P6'> Went to the Promenade Concert in the Evening. Saw numbers I know but am very dissatisfied with myself for being tempted there so often. It costs a great deal of money, although the admission is but a shilling, for Australian [Politeness?] necessitates the asking of all speaking acquaintances to Nobblerise, and as Drinks cost each a shilling a Pound soon evaporates.<lb/>
+
+</p>
+
+<p corresp='TTP853P7' xml:id='OTP853P7'> The Money however is not the principal cause of my disliking to be there. Tis the Publicity and the fear of being thought a fast fellow, for my temperament makes me conspicuous, as when with two or three companions, I generally become merry, talk loud and laugh noisily. I must turn over a new leaf or expect to go to the Dogs, and be left without a true friend.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F854" n="9" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/854.jpg"/>
+        <div xml:id="OTP854">
+        <fw type="pageNum">Page 9</fw>
+        <p corresp='TTP854P0' xml:id='OTP854P0'>[January 24 Wednesday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP854P1' xml:id='OTP854P1'> 	Mr Wintle called this morning, previous I had received a letter from him enclosing Returns to be made for the Blue Book.  These returns were for the whole year &amp; I hastily imagined, an intention to impose upon me other peoples work, so I indignantly sat down to write a letter stating my inability to furnish the required information.<lb/>
+
+</p>
+
+<p corresp='TTP854P2' xml:id='OTP854P2'> 	I sent the letter in and then of course as I always do, considered I had acted hastily and that my refusal might be construed into laziness or disinclination to give satisfaction. I shall never get on unless I think before I act.<lb/>
+
+</p>
+
+<p corresp='TTP854P3' xml:id='OTP854P3'> 	The Assistant Colonial Architect came and inspected work lately performed by a Contractor.<lb/>
+
+</p>
+
+<p corresp='TTP854P4' xml:id='OTP854P4'> 	Received a copy of the Illustrated London News directed to my sister from Mrs Smith at Bedhampton.  Took it to Lotherington.<lb/>
+
+</p>
+
+<p corresp='TTP854P5' xml:id='OTP854P5'> 	Saw William Lotherington, and accompanied him and Mr Perrot to dinner, made engagement to dine with Joe at St Kilda tomorrow it being his birthday.<lb/>
+
+</p>
+
+<p corresp='TTP854P6' xml:id='OTP854P6'> 	Saw McEwen and found he had received similar Returns to mine.  Cannot some how or other help blathering a great deal to (sic) much to people of whom I cannot know sufficiently well to prudently open my heart.<lb/>
+
+</p>
+
+<p corresp='TTP854P7' xml:id='OTP854P7'> 	Feel some how or other daily more unsatisfied with myself. Think I drink and smoke too much.  I want more active employment. "God Help Me".<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F855" n="10" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/855.jpg"/>
+        <div xml:id="OTP855">
+        <fw type="pageNum">Page 10</fw>
+        <p corresp='TTP855P0' xml:id='OTP855P0'>[January 25 Thursday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP855P1' xml:id='OTP855P1'> Went to the Gaol with Requisition for Altering Spouting, told my Mr Wintle that I would not be expected to have anything to do with the Blue Books.  Dr Webster called and examined several lunatics.<lb/>
+
+</p>
+
+<p corresp='TTP855P2' xml:id='OTP855P2'> 	Forwarded "William Biggin" to the Benevolent Asylum.<lb/>
+
+</p>
+
+<p corresp='TTP855P3' xml:id='OTP855P3'> 	Perrot came in and made an afternoon of it. Lent him five shillings to pay Hire of Buss (sic) for him to St Kilda.  Mr McNee called, had a Nobbler and called me mysteriously aside. Could I lend him five pounds, of course, Gave him the money.<lb/>
+
+</p>
+
+<p corresp='TTP855P4' xml:id='OTP855P4'> 	Joe's birthday so I went to St Kilda. Mr &amp; Mrs Lotherington and the Misses Lotherington as also Perrot were there, had a pleasant evening but stayed rather late waiting for Perrot.  Met a Friend of Perrot's a short distance from the house and of course went home with him to have a Nobbler.  Perrot extremely anxious to stay all night, but I determined to sleep at home.  Got a little out of our latitude after passing across Richmond Paddock. I guided by Lights ahead steered for Melbourne, leaving Perrot declaring his ignorance of the Locality.  He could not however have been but a trifling distance from his quarters.  Home about a Quarter to twelve.  Wrote this page, and thought of bed.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F856" n="11" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/856.jpg"/>
+        <div xml:id="OTP856">
+        <fw type="pageNum">Page 11</fw>
+        <p corresp='TTP856P0' xml:id='OTP856P0'>[January 26 Friday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP856P1' xml:id='OTP856P1'> Paid Cabman 10 shillings for cab to Benevolent Asylum, made him a present of a shilling to get a Nobbler.  Having caused him a great deal of unnecessary trouble.  Very unprofitable work for me these trifles.  I have to pay them from my pocket and then fight hard to get my own again.  The Order of the Government now is that for every demand Two Householders shall sign their belief in its reasonableness.  Extremely hot all day.  Mr McNee called after office hours and paid me £8.1/ Eight Pounds One Shilling on account of John Martin at present under my charge.<lb/>
+
+</p>
+
+<p corresp='TTP856P2' xml:id='OTP856P2'> Dined with Mr Black and knocked about till the Fancy Dress Ball commenced  Comparatively few people present and these of the Genus Fast. Drank with numbers but did not dance.  It is no use being a hypocrite with one's Diary,  I cannot dance and every day find it more and more a drawback. False Pride alone prevents me taking lessons.  I would not learn when a boy and now I have whiskers I am ashamed to be seen beginning.<lb/>
+
+</p>
+
+<p corresp='TTP856P3' xml:id='OTP856P3'> John Edwards was dressed in character, or rather wore breeches silk stockings, flashed Doublet and hat bound with cherry ribbon, and auburn wig with curls a la Cavalier.<lb/>
+
+</p>
+
+<p corresp='TTP856P4' xml:id='OTP856P4'> Drink, smoke and chaffs, kept me till the musicians were tired. I got home at four o clock A.M.<lb/>
+
+</p>
+
+<p corresp='TTP856P5' xml:id='OTP856P5'> Improper persons will not be admitted to the Ball this Evening was an announcement extensively circulated, &amp; to carry out the sanitory (sic) measure, a lynx eyed Detective was engaged to spot the naughty ones. Unfortunately he had but one eye, so the frail fair doubtless got on his blind side, for not a female was there in the room who was not notorious for selling her favors.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F857" n="12" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/857.jpg"/>
+        <div xml:id="OTP857">
+        <fw type="pageNum">Page 12</fw>
+        <p corresp='TTP857P0' xml:id='OTP857P0'>[January 27 Saturday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP857P1' xml:id='OTP857P1'> Rather seedy first thing this morning but contrived to attend to business.  Mr Wintle inspected the Gaol, chatted very friendly. I believe he thinks I am very fast but yet cannot make out how the place is always correct.<lb/>
+
+</p>
+
+<p corresp='TTP857P2' xml:id='OTP857P2'> Made up some newspapers for England &amp; after four o clock, went out to Post them. On the road to the office met Messrs McNee &amp; Newby, accompanied them of course to get a Nobbler.  Went to Coleman's great crowd there assembled to see a race for 75 Yards between a man and a horse.  All a humbug, and made up affair by the Publican.<lb/>
+
+</p>
+
+<p corresp='TTP857P3' xml:id='OTP857P3'> Met Mr Haydn the Reporter of the Herald and our number thus increased walked on to the Cricket Ground where the Band of the 40th Regiment was playing.<lb/>
+
+</p>
+
+<p corresp='TTP857P4' xml:id='OTP857P4'> On the way had a race with Newby, a pretty good match. I won.<lb/>
+
+</p>
+
+<p corresp='TTP857P5' xml:id='OTP857P5'> I had Diarrhoea and thought it prudent to drink Brandy. Took a good deal to much  Dined with Newby at Richmond, and then went into town.  Pulled up at Coleman's by a Gaol acquaintance and set to work drinking.  Went into Gaol acquaintance’s house when Coleman shut up.  I shouted a couple of bottles of wine for which I threw down a soveriegn (sic).  Got very late and eventually was left with the Reporter &amp; McNee. Wanted to stop with a woman that was in the house, she however was too mercenary, and though at last willing to come to my terms, my inclination for her had fled. Got home very late, but very thankful that I should be spared the mortification of coming home disgusted &amp; dirty the [next?] daylight. <lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F858" n="13" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/858.jpg"/>
+        <div xml:id="OTP858">
+        <fw type="pageNum">Page 13</fw>
+        <p corresp='TTP858P0' xml:id='OTP858P0'><lb/>
+ [January 28 Sunday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP858P1' xml:id='OTP858P1'> “Seedy again”. This will not do. I must turn over a fresh leaf. Great satisfaction however in waking in my own bed.<lb/>
+
+</p>
+
+<p corresp='TTP858P2' xml:id='OTP858P2'> One of the hottest winds I ever experienced. Mr Matyr called to get out of the heat stopped with me till after Mr Stoddart had performed Divine Service and then invited me to dine at the Imperial. Had some very fair soup and tolerably cool porter.<lb/>
+
+</p>
+
+<p corresp='TTP858P3' xml:id='OTP858P3'> Sea Breeze sprang up about half past two but died away very quickly, and left the evening intensely close.<lb/>
+
+</p>
+
+<p corresp='TTP858P4' xml:id='OTP858P4'> Went to Church. Sat with Harrison. Saw William Lotherington and Perrot after the service, went to the Larder and had some bottled beer and then took a stroll with Harrison. The streets lined with people lounging about outside the open doors of their houses.<lb/>
+
+</p>
+
+<p corresp='TTP858P5' xml:id='OTP858P5'> Harrison walked home with me, and sat till about half past ten.<lb/>
+
+</p>
+
+<p corresp='TTP858P6' xml:id='OTP858P6'> Had to move noisy Lunatic from Ward to the Cell adjoining my Quarters, he most obstropolous for some time. Went to bed but the closeness of Atmosphere and startling vitality of the Mosquitos Quite prevented sleep. Kicked and turned about for two or three hours and then in despair rose struck light and sat down to scribble this page in my nightshirt with two or three most musical buzzers (illegible) around my head. By the bye I have just wiped my pen in the tail of my shirt, that wont do. Cannot look back with pleasure on the manner in which the last week has been passed by me. I have drank (sic) a great deal more than I ought and have kept very late hours. Tis true I cannot accuse myself of any decided profligacy but yet have acted so as to make [retrospection?]  a bore. I have also been wastefully extravagant, but at least know that unless I give up company altogether, I shall never make myself at all better in pocket. I’ll try bed again. Good night my friend to you alone I open my heart.<lb/>
+
+</p>
+
+<p corresp='TTP858P7' xml:id='OTP858P7'/>
+        </div>
+      <pb xml:id="F859" n="14" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/859.jpg"/>
+        <div xml:id="OTP859">
+        <fw type="pageNum">Page 14</fw>
+        <p corresp='TTP859P0' xml:id='OTP859P0'>[January 29 Monday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP859P1' xml:id='OTP859P1'> Made my Returns out for the past week and sent them into the Sheriff.  Received seven prisoners. Gaol is getting very crowded and that too with a very troublesome class.  Received a couple of Dozen of bottled beer from Goodman &amp; Umphelby for which I paid £1.10/<lb/>
+
+</p>
+
+<p corresp='TTP859P2' xml:id='OTP859P2'> 	Went out in the Evening and called upon Mr Read the Architect, brought himself and cousin to my place.  Tried the Beer, very much annoyed by a Lunatic, that I had in a solitary cell.  He being a bit of a Rogue made as much noise as he possibly could when he found I had some one with me.  Know of no means of treating such a lunatic excepting shrugging my shoulders and patience.<lb/>
+
+</p>
+
+<p corresp='TTP859P3' xml:id='OTP859P3'> 	We went to Black's Concert Room.  It was very hot and to me rather slow, fooled about and had a Nobbler or two and left, Mr Read inclined to be jolly, played two or three practical jokes and separated.  I went home and trust my late companions did the same.<lb/>
+
+</p>
+
+<p corresp='TTP859P4' xml:id='OTP859P4'> 	Dr Webster called during the day. I introduced him to an American Physician who had been sent me as insane.  This is a most extraordinary case.  Dr Wills is as intelligent and perfectly rational, a person, to converse with on any subject that I know.  He has however a belief or rather monomania that there is something wrong with his intellect.  This idea is really all that betrays any weakness of his mental powers.
+</p>
+
+
+        </div>
+      <pb xml:id="F860" n="15" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/860.jpg"/>
+        <div xml:id="OTP860">
+        <fw type="pageNum">Page 15</fw>
+        <p corresp='TTP860P0' xml:id='OTP860P0'>[January 30 Tuesday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP860P1' xml:id='OTP860P1'> My life is proceeding most unsatisfactory each day more wearisome than the preceding. Each day commenced with the lassitude caused by the last night's debauch, Each day fresh resolutions of reformation made, each day such resolutions broken on the first temptation.  I am not a Drunkard, I hate Blackguard Society. I long for genial friendship, and to find one woman, that I could love and respect, Wanting these, and also not having strength  of mind to study, nor a refuge in my own thoughts, After the days confinement I am open to the calls of the First Idler, Lounge about, Drink, Look at the whores, fool away my money at their homes, by paying for drink which is neither wanted, nor drank, at prices four times as high as even the extravagant charges obtained by Publicans &amp; all for what, to be called a Good natured fool, and upon reflection, to be disgusted with self &amp; mankind.<lb/>
+
+</p>
+
+<p corresp='TTP860P2' xml:id='OTP860P2'> Called upon Lotherington. Emma Quite well. Invited to St Kilda but refused weather appearing unfavourable.<lb/>
+
+</p>
+
+<p corresp='TTP860P3' xml:id='OTP860P3'> Mr Matyr called in the Evening. I went out with him and into several disreputable Houses, Monk’s, By Maria's, Woman previously unknown but, possessing Trap for Grog, Babies, Absent Lodger and absent husband of mysterious pursuits.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F861" n="16" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/861.jpg"/>
+        <div xml:id="OTP861">
+        <fw type="pageNum">Page 16</fw>
+        <p corresp='TTP861P0' xml:id='OTP861P0'>[January 31 Wednesday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP861P1' xml:id='OTP861P1'> Went to the Main Gaol the first thing this morning. Mr Wintle remarkably uncommunicative<lb/>
+
+</p>
+
+<p corresp='TTP861P2' xml:id='OTP861P2'> The Gaol is getting very crowded and difficult to manage, noisy lunatics, Stubborn Half Fools, Helpless idiots, and uncompromising Turnkeys, require exertion and tact to keep out of hot water.<lb/>
+
+</p>
+
+<p corresp='TTP861P3' xml:id='OTP861P3'> Messrs McNee &amp; Newby called after four o clock went out with them and eventually dined at Dr Stillman's. Spent the evening there, and got home comfortably early.<lb/>
+
+</p>
+
+<p corresp='TTP861P4' xml:id='OTP861P4'> Received this day the Supply of Wood I had requisitioned for, had it Stacked and measured.<lb/>
+
+</p>
+
+<p corresp='TTP861P5' xml:id='OTP861P5'> There is one month of 1855 passed and I cannot congratulate myself upon having at all bettered my conditions or prospects.  I have spent tis true no more than my salary, but then of that salary I have wasted nearly the half. I have drank a great deal more than necessary, have made undesirable acquaintance, have enabled the people about me to have the power of talking of my keeping late hours and have left no sunny remembrance, that I may fall back upon God strengthen and assist me so that I may spend February more desirably.<lb/>
+
+</p>
+
+<p corresp='TTP861P6' xml:id='OTP861P6'> Madras Steamer sailed to day taking home Sir Charles Fitzroy late Governor General of Sydney. I sent Newspapers by her but no letters.<lb/>
+
+</p>
+
+
+        </div>
+      <pb xml:id="F862" n="17" facs="/srv/ha/web/XFTP/fromthepage/public/images/working/upload/862.jpg"/>
+        <div xml:id="OTP862">
+        <fw type="pageNum">Page 17</fw>
+        <p corresp='TTP862P0' xml:id='OTP862P0'>[February 1 Thursday 1855]<lb/>
+
+</p>
+
+<p corresp='TTP862P1' xml:id='OTP862P1'> Got up early noticed some irregularity of the Old Doctor's so sat down and drew out some regulations, which I posted to prevent any future plea of ignorance.<lb/>
+
+</p>
+
+<p corresp='TTP862P2' xml:id='OTP862P2'> A prisoner wrote to the Sheriff. Mr Wintle brought up the answer.<lb/>
+
+</p>
+
+<p corresp='TTP862P3' xml:id='OTP862P3'> The Presbyterian Minister addressed the Protestants.<lb/>
+
+</p>
+
+<p corresp='TTP862P4' xml:id='OTP862P4'> Mr Stoddart Gaol chaplain paid us a visit.<lb/>
+
+</p>
+
+<p corresp='TTP862P5' xml:id='OTP862P5'> Went down after muster and called on McEwen, he took me to see Lewis the Colonial Dispenser.  Mrs Lewis and her female companion are not all my style. Took Tea with Mrs McEwen and then she, I and Lewis went for ramble. Brought them home, had some Grog and left them eventually very talkative.<lb/>
+
+</p>
+
+<p corresp='TTP862P6' xml:id='OTP862P6'> Mrs Lewis has a baby and that baby will she says be twelve months old to morrow.  So I am invited there to dine. It is really a great Bore, but as I escaped some [previous?] festivity by pleading indisposition I think I must go.<lb/>
+
+</p>
+
+<p corresp='TTP862P7' xml:id='OTP862P7'> Women are deceitful wretches. When we called upon Mrs Lewis, We were told that Joseph would not kill the duck. It would not take him a moment to cut its throat says Mrs Lewis, or chop its head off with an axe sang her companion.  McEwen gallantly undertook the butchery, and when all was over and the duck suspended in the Larder, the women began to talk sentiment. What a pity it was to kill the poor thing. It was such a pretty creature, I should so like to have kept it.<lb/>
+
+</p>
+
+<p corresp='TTP862P8' xml:id='OTP862P8'> Thank God I am single.<lb/>
+
+</p>
+
+<p corresp='TTP862P9' xml:id='OTP862P9'/>
+        </div>
+  </body>
+</text>
+</TEI>
