@@ -7,11 +7,20 @@ Author: Steve Cassidy <steve.cassidy@mq.edu.au>
 import pandas as pd
 import xml.etree.ElementTree as ET
 import geocoder
+import json
 
 
-# should be kept secret...
-#  username for account on http://www.geonames.org/
-GEONAMES_KEY = 'xxxxxx'
+def secret(key):
+    """Get the value of 'key' from the file
+    'secret.json' in the current directory"""
+    
+    with open("secret.json") as fd:
+        keys = json.load(fd)
+        
+    if key in keys:
+        return keys[key]
+    else:
+        return "unknown"
 
 def read_digivol_csv(filename):
     """Read a CSV file exported from Digivol
@@ -45,6 +54,7 @@ def geolocate_locations(loc, countryBias=['AU']):
     returns the new dataframe
     """
 
+    GEONAMES_KEY = secret('geonames')
     geo = []
     for place in loc['placename']:
         g = geocoder.geonames(place, key=GEONAMES_KEY, countryBias=countryBias)

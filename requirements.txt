@@ -3,3 +3,4 @@ geocoder
 pandas
 numpy
 matplotlib
+pyalveo
