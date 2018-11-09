@@ -10,7 +10,12 @@ import geocoder
 import json
 import requests
 import os
+import spacy
 
+# download the spacy models we need
+model = 'en_core_web_md'
+#spacy.cli.download(model)
+nlp = spacy.load(model)
 
 def secret(key):
     """Get the value of 'key' from the file
@@ -30,23 +35,53 @@ def read_digivol_csv(filename):
     return a DataFrame with text in the 'text' column"""
     
     dv = pd.read_csv('data/Project-1536729-DwC.csv')
-    texts = dv['occurrenceRemarks']
-    
-    return pd.DataFrame({'text': texts})
+    t = [x.replace('\r\n', '\n') for x in dv['occurrenceRemarks']]
+    dv['text'] = t
+    dv.drop('occurrenceRemarks', axis=1, inplace=True)
+    return dv
 
 
 def read_ftp_xml(filename):
     """Read texts from the TEI XML format
     export from From The Page. Return a dataframe
-    containing the text in the 'text' column"""
+    containing the text in the 'text' column and the 'xml:id' attribute for 
+    each text (these are pages in the original document)"""
     
     tree = ET.parse(filename)
     root = tree.getroot()
     texts = []
     for para in root.iter('{http://www.tei-c.org/ns/1.0}p'):
-        if para.text:
-            texts.append(para.text)
-    return pd.DataFrame({'text': texts})
+        if '{http://www.w3.org/XML/1998/namespace}id' in para.attrib:
+            ident = para.attrib['{http://www.w3.org/XML/1998/namespace}id']
+        else:
+            ident = "unknown"
+        # get all text inside the paragraph, ignoring tags
+        # replace \r\n sequences with just \n since it confuses spaCy
+        text = "".join(para.itertext()).replace('\r\n','\n')
+        if text:
+            texts.append({'id': ident, 'text': text})
+    return pd.DataFrame(texts)
+
+
+def apply_ner(df, text='text', ident='id', keep_entities=[]):
+    """Apply SpaCy Named Entity Recognition to texts in a data
+    frame.  'text' is the column containing text, 'ident' is
+    the column containing a document identifier.  Resulting
+    data frame will have columns """
+    
+    entities = []
+
+    for i, t in df.iterrows():
+        text = t['text']
+        doc = nlp(text)
+        for ent in doc.ents:
+            if not keep_entities or ent.label_ in keep_entities:
+                context = doc[ent.start-2:ent.end+2]
+                context = " ".join([w.text for w in context])
+                d = {'entity': ent.text, 'type': ent.label_, 'context': context, 'id': t[ident]}
+                entities.append(d)
+                
+    return pd.DataFrame(entities)
 
 
 def geolocate_locations(loc, countryBias=['AU']):
@@ -59,7 +94,7 @@ def geolocate_locations(loc, countryBias=['AU']):
 
     GEONAMES_KEY = secret('geonames')
     geo = []
-    for place in loc['placename']:
+    for place in loc['entity']:
         g = geocoder.geonames(place, key=GEONAMES_KEY, countryBias=countryBias)
         if g:
             result = {'lat': g.lat, 'lng': g.lng, 'address': g.address, 'country': g.country}

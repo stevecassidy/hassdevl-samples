@@ -15,3 +15,6 @@ to `secret.json` and edit it to add your keys.
 - [Geonames username](http://www.geonames.org/login)
 - [Google Maps API key](https://developers.google.com/maps/documentation/javascript/get-api-key)
     
+Note that I am using [nbstripout](https://github.com/kynan/nbstripout) to remove output from notebooks
+before committing changes to git.  This prevents minor changes such as re-running the notebooks showing up
+as changes on Github.

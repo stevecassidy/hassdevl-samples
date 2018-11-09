@@ -240,3 +240,10 @@ def valid_record(record: pd.Series) -> bool:
                 'formerly' in record['address'] or \
                 len(record['address']) > 70 )
 
+
+def collect_document_entities(articles: pd.DataFrame, records: pd.DataFrame) -> pd.DataFrame:
+    """Given a dataframe containing articles and another with entity records
+     create a new dataframe suitable for training SpaCy NER models with the
+     article text and all entities found in it"""
+
+    pass
