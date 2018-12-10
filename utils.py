@@ -63,22 +63,25 @@ def read_ftp_xml(filename):
     return pd.DataFrame(texts)
 
 
-def apply_ner(df, text='text', ident='id', keep_entities=[]):
+def apply_ner(df, textcol='text', ident='id', keep_entities=[], context=2):
     """Apply SpaCy Named Entity Recognition to texts in a data
-    frame.  'text' is the column containing text, 'ident' is
-    the column containing a document identifier.  Resulting
+    frame.  'textcol' is the column containing text, 'ident' is
+    the column containing a document identifier. 
+    'context' is the number of words each side of the entity to 
+    return as the context of each hit. Resulting
     data frame will have columns """
     
     entities = []
 
     for i, t in df.iterrows():
-        text = t['text']
+        text = t[textcol]
         doc = nlp(text)
         for ent in doc.ents:
-            if not keep_entities or ent.label_ in keep_entities:
-                context = doc[ent.start-2:ent.end+2]
-                context = " ".join([w.text for w in context])
-                d = {'entity': ent.text, 'type': ent.label_, 'context': context, 'id': t[ident]}
+            if ent.text.strip() != '' and (not keep_entities or ent.label_ in keep_entities):
+                # get the context words, take care at the start and end of the document
+                ctx = doc[max(0,ent.start-context):min(len(doc), ent.end+context)]
+                ctx = " ".join([w.text for w in ctx])
+                d = {'entity': ent.text, 'type': ent.label_, 'context': ctx, 'id': t[ident]}
                 entities.append(d)
                 
     return pd.DataFrame(entities)

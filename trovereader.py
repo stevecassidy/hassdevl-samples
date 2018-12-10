@@ -7,9 +7,16 @@ over the records in a file as Python dictionaries.
 
 """
 from typing import Dict, List
-
+import pandas as pd
 from lxml import etree
 
+
+def trove_to_dataframe(xmlfile: str) -> pd.DataFrame:
+    df = pd.DataFrame(trove_parser(xmlfile))
+    # drop some unwanted columns
+    df.drop(['bibliographicCitation', 'coverage', 'format', 'language', 'metadataSource', 'type'], axis=1, inplace=True)
+    return df
+    
 
 def trove_parser(xmlfile: str) -> List:
     """Read records corresponding to documents from an XML
@@ -33,6 +40,8 @@ def trove_parser(xmlfile: str) -> List:
                     record[propname].append(child.text.strip())
                 else:
                     record[propname] = [child.text.strip()]
+        for key in record:
+            record[key] = record[key][0]
         yield record
 
 if __name__=='__main__':
