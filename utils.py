@@ -12,9 +12,13 @@ import requests
 import os
 import spacy
 
-# download the spacy models we need
+# get the spacy models we need, download if it isn't here
 model = 'en_core_web_md'
-#spacy.cli.download(model)
+try:
+   spacy.load(model)
+except IOError:
+    spacy.cli.download(model)
+
 nlp = spacy.load(model)
 
 def secret(key):
